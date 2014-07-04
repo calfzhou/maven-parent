@@ -175,32 +175,4 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <repositories>
-        <repository>
-            <id>calfzhou-releases</id>
-            <url>https://github.com/calfzhou/maven-repo/raw/master/releases</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </repository>
-        <repository>
-            <id>calfzhou-thirdparty</id>
-            <url>https://github.com/calfzhou/maven-repo/raw/master/thirdparty</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>calfzhou-releases</id>
-            <url>https://github.com/calfzhou/maven-repo/raw/master/releases</url>
-            <snapshots>
-                <enabled>false</enabled>
-            </snapshots>
-        </pluginRepository>
-        <pluginRepository>
-            <id>calfzhou-thirdparty</id>
-            <url>https://github.com/calfzhou/maven-repo/raw/master/thirdparty</url>
-        </pluginRepository>
-    </pluginRepositories>
 </project>
